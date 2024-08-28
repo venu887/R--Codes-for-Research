@@ -73,7 +73,7 @@ a<-m0[rowSums(m0==0)<=index0,]; dim(m0) #removing >20% zeros in m0
 m0<-b[str_detect(colnames(b), "01A|02A|03A|04A|05A|06A|07A|08A|09A
               |01B|02B|03B|04B|05B|06B|07B|08B|09B
               |01C|02C|03C|04C|05C|06C|07C|08C|09C
-              |01D|02D|03D|04D|05D|06D|07D|08D|09D")]
+              |01D|02D|03D|04D|05D|06D|07D|08D|09D"),]
 
 z<-x[str_detect(names(x), "m1")]; dim(z)#selection of m1
 z[1,]
